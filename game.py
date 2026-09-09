@@ -1,18 +1,18 @@
 from goblin import Goblin
 
 
-ARENA_NAME = "The Iron Circle"
+ARENA_NAME = "Dr. Doom's Destruction Dome"
 
 
 def main():
     """Open the arena and introduce its first opponent."""
-    print(f"Welcome to {ARENA_NAME}!")
+    print(f"Tremble! in fear of {ARENA_NAME}!")
     print("༼ ᓄºل͟º ༽ᓄ   ᕦ(ò_óˇ)ᕤ")
-    print("The gates are opening...")
+    print("DoomBots raise the gates...")
 
-    goblin = Goblin("Gribble")
+    goblin = Goblin("Symbiote Infected Creature")
 
-    print(f"{goblin.name} enters the arena with {goblin.health} health.")
+    print(f"{goblin.name} crawls into the arena with {goblin.health} HP.")
     print("But no hero has answered the call... yet.")
 
 
