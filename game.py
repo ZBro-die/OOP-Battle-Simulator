@@ -16,7 +16,7 @@ def main():
 
     newGoblin = Goblin("Brotherhood Mutant")
     
-    print(f"{newGoblin.name} crawls into the arena with {goblin.health} HP.")
+    print(f"{newGoblin.name} stumbles into the arena with {goblin.health} HP.")
         
 
     print("But no hero has answered the call... yet.")
